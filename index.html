@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pokédex</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=Crimson+Text:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="pokedex">
+    <h1 class="title">Pokédex</h1>
+
+    <div class="card" id="card">
+      <div class="card-inner">
+
+        <div class="card-header">
+          <span class="pokemon-name" id="pokemon-name"></span>
+          <span class="pokemon-number" id="pokemon-number">#</span>
+        </div>
+
+        <div class="image-container">
+          <div class="image-bg">
+            <img id="pokemon-image" src="" alt="Imagem do Pokémon" />
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+    <div class="buttons">
+      <button id="btn-anterior" onclick="anterior()">&#8592; Anterior</button>
+      <button id="btn-proximo" onclick="proximo()">Próximo &#8594;</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
